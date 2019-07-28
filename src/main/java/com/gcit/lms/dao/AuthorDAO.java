@@ -15,10 +15,7 @@ import org.springframework.stereotype.Service;
 
 import com.gcit.lms.entity.Author;
 
-/**
- * @author ppradhan
- *
- */
+
 @Component
 public class AuthorDAO extends BaseDAO<Author> implements ResultSetExtractor<List<Author>>{
 	
